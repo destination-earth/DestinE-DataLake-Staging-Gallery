@@ -1,1 +1,1 @@
-import{a}from"/dest/build/_shared/chunk-FPSYXP2C.js";import"/dest/build/_shared/chunk-2NH4LW52.js";export default a();
+import{a}from"/DestinE-DataLake-Staging-Gallery/build/_shared/chunk-FPSYXP2C.js";import"/DestinE-DataLake-Staging-Gallery/build/_shared/chunk-2NH4LW52.js";export default a();

@@ -1,1 +1,1 @@
-import{a}from"/dest/build/_shared/chunk-QPHM77JH.js";import"/dest/build/_shared/chunk-H6WH3AJF.js";import"/dest/build/_shared/chunk-3MZURCDM.js";import"/dest/build/_shared/chunk-2NH4LW52.js";export default a();
+import{a}from"/DestinE-DataLake-Staging-Gallery/build/_shared/chunk-QPHM77JH.js";import"/DestinE-DataLake-Staging-Gallery/build/_shared/chunk-H6WH3AJF.js";import"/DestinE-DataLake-Staging-Gallery/build/_shared/chunk-3MZURCDM.js";import"/DestinE-DataLake-Staging-Gallery/build/_shared/chunk-2NH4LW52.js";export default a();
