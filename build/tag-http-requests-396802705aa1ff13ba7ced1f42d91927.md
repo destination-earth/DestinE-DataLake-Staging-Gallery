@@ -1,4 +1,4 @@
-# Notebooks `Deep Learning`
+# Notebooks `HTTP requests`
 
 ### Filter Notebooks by Tags
 
@@ -74,43 +74,30 @@
 {button}`zarr </galleries_by_tag/tag-zarr.md>`
 
 <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px;">
-<div class="notebook-card" data-tags="Deep Learning Sentinel-2 GPU" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA STAC HTTP requests" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/hda.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Deep Learning example for Sentinel-2</strong><br>
-    Land cover classification on Sentinel-2 images with CNN. Used ResNet-18 with transfer learning from ImageNet
+    <strong>HDA Tutorial - Quick start</strong><br>
+    This notebook demonstrates how to use the HDA (Harmonized Data Access) API by sending a few HTTP requests to the API, using Python code.
     <div style="margin: 6px 0;">
-      <span class="tag">Deep Learning</span><span class="tag">Sentinel-2</span><span class="tag">GPU</span>
+      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">HTTP requests</span>
     </div>
-    <a href="../production/STACK/gpu_usage_demos/dl_remote_sensing_demo.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/REST/HDA-REST-quick-start.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="PyTorch CUDA Deep Learning GPU" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA STAC HTTP requests API-key DestineLab" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/hda.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>PyTorch GPU example</strong><br>
-    CUDA checks, benchmarks, and toy training. GPU vs CPU comparison.
+    <strong>Using DEDL API Keys for Automated Workflows</strong><br>
+    Demonstrating DestinE Data Lake API Keys usage for accessing data via HDA
     <div style="margin: 6px 0;">
-      <span class="tag">PyTorch</span><span class="tag">CUDA</span><span class="tag">Deep Learning</span><span class="tag">GPU</span>
+      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">HTTP requests</span><span class="tag">API-key</span><span class="tag">DestineLab</span>
     </div>
-    <a href="../production/STACK/gpu_usage_demos/pytorch_demo.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="TensorFlow CUDA Deep Learning GPU" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>TensorFlow GPU example</strong><br>
-    Device checks, benchmarks (GPU vs CPU), and CNN training.
-    <div style="margin: 6px 0;">
-      <span class="tag">TensorFlow</span><span class="tag">CUDA</span><span class="tag">Deep Learning</span><span class="tag">GPU</span>
-    </div>
-    <a href="../production/STACK/gpu_usage_demos/tensorflow_demo.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/REST/HDA-REST-API-key.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>

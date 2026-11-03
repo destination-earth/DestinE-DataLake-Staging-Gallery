@@ -1,4 +1,4 @@
-# Notebooks `Dask`
+# Notebooks `Metop`
 
 ### Filter Notebooks by Tags
 
@@ -74,43 +74,43 @@
 {button}`zarr </galleries_by_tag/tag-zarr.md>`
 
 <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px;">
-<div class="notebook-card" data-tags="STACK Dask GFM" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA Metop AVHRR satpy" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/dask.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>STACK service - Python Client Dask</strong><br>
-    This notebook demonstrates how to use the DEDL Stack Python client to authenticate, manage, and execute parallel, multi-cloud Dask computations on distributed datasets stored across Central Site and LUMI bridge.
+    <strong>AVHRR Level 1B Metop Global - Data Access</strong><br>
+    This notebook demonstrates how to search and access Metop data using HDA and how to read, process and visualize it using satpy.
     <div style="margin: 6px 0;">
-      <span class="tag">STACK</span><span class="tag">Dask</span><span class="tag">GFM</span>
+      <span class="tag">HDA</span><span class="tag">Metop</span><span class="tag">AVHRR</span><span class="tag">satpy</span>
     </div>
-    <a href="../production/STACK/STACK-Python-Client-Dask.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.METOP.AVHRRL1.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="STACK Dask Cluster" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="DEFAIR EUMETSAT Metop Sentinel-3" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/dask.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/EUMETSAT_TEST.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>STACK service - Dask 101</strong><br>
-    This notebook introduces Dask's core APIs and demonstrates how to use them for scalable, parallel, and distributed data processing, culminating in deploying and interacting with a Dask cluster on the DestinE Data Lake STACK service.
+    <strong>Reading polar-orbiter products: Metop and Sentinel-3</strong><br>
+    This tutorial shows how to read polar-orbiter products: Metop and Sentinel-3 and draw each one, using DEFAIR.
     <div style="margin: 6px 0;">
-      <span class="tag">STACK</span><span class="tag">Dask</span><span class="tag">Cluster</span>
+      <span class="tag">DEFAIR</span><span class="tag">EUMETSAT</span><span class="tag">Metop</span><span class="tag">Sentinel-3</span>
     </div>
-    <a href="../production/STACK/STACK-Dask-101.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/DEFAIR/DEDL_DEFAIR_Reading_polar_orbiter_products.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="STACK Dask GFM" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="DEFAIR MSG SEVIRI Metop EDLST MTG GII IASI data cube" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/dask.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>STACK Service Dask</strong><br>
-    This notebook introduces authentication and multi-cluster management using the DEDL Stack client with OIDC, enabling users to securely spawn, monitor, and scale Dask clusters across Central and LUMI locations within the DestinE Data Lake.
+    <strong>Building a Heterogeneous AI-Ready Data Cube with DEFAIR</strong><br>
+    Four EUMETSAT sources, four geometries, one aligned cube : MSG SEVIRI × Metop EDLST × MTG GII × Metop IASI.
     <div style="margin: 6px 0;">
-      <span class="tag">STACK</span><span class="tag">Dask</span><span class="tag">GFM</span>
+      <span class="tag">DEFAIR</span><span class="tag">MSG</span><span class="tag">SEVIRI</span><span class="tag">Metop</span><span class="tag">EDLST</span><span class="tag">MTG</span><span class="tag">GII</span><span class="tag">IASI</span><span class="tag">data cube</span>
     </div>
-    <a href="../production/STACK/DEDL_StackService_Dask.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/DEFAIR/DEDL_DEFAIR_Building_heterogeneous_data_cube_using_defair.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>

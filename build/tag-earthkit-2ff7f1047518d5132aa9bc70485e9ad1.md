@@ -1,4 +1,4 @@
-# Notebooks `EUMETSAT`
+# Notebooks `earthkit`
 
 ### Filter Notebooks by Tags
 
@@ -74,56 +74,43 @@
 {button}`zarr </galleries_by_tag/tag-zarr.md>`
 
 <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px;">
-<div class="notebook-card" data-tags="DEFAIR EUMETSAT MSG SEVIRI Metop AVHRR Sentinel-3 SLSTR AI Ready Data Generation" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA ECMWF earthkit Digital Twin ROI" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT_TEST.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Collocating Geostationary and Polar-Orbiting Satellite Observations</strong><br>
-    This notebook demonstrates how to collocate observations from geostationary and polar-orbiting satellites using DEFAIR tools.
+    <strong>ClimateDT-ROISelectionandDataAnalysis</strong><br>
+    This notebook shows how to request, access and work with Climate DT data selecting a region of interest via HDA
     <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">EUMETSAT</span><span class="tag">MSG SEVIRI</span><span class="tag">Metop AVHRR</span><span class="tag">Sentinel-3 SLSTR</span><span class="tag">AI Ready Data Generation</span>
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">earthkit</span><span class="tag">Digital Twin</span><span class="tag">ROI</span>
     </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_geo_leo_collocation.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ROISelectionandDataAnalysis.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="DEFAIR EUMETSAT Metop Sentinel-3" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA ECMWF earthkit Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT_TEST.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Reading polar-orbiter products: Metop and Sentinel-3</strong><br>
-    This tutorial shows how to read polar-orbiter products: Metop and Sentinel-3 and draw each one, using DEFAIR.
+    <strong>HDA Climate DT Parameter Plotter - Tutorial</strong><br>
+    This notebook provides an interactive workflow to select, query, download, and visualize Climate Digital Twin parameters from the DestinE Data Lake using the DEDL HDA API.
     <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">EUMETSAT</span><span class="tag">Metop</span><span class="tag">Sentinel-3</span>
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">earthkit</span><span class="tag">Digital Twin</span>
     </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_Reading_polar_orbiter_products.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ParameterPlotter.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="DEFAIR EUMETSAT MSG SEVIRI MTG FCI MTG Lightning Imager" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA ECMWF earthkit Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT_TEST.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Reading geostationary products: MSG SEVIRI, MTG FCI and the Lightning Imager with DEFAIR</strong><br>
-    This tutorial shows how to read three of the families of geostationary satellite products MSG SEVIRI, using DEFAIR
+    <strong>Weather-Induced Extremes DT Parameter Plotter Tutorial</strong><br>
+    This notebook shows how to select, request, and download Digital Twin for Weather-Induced Extremes data from the DestinE Data Lake (DEDL HDA), including user-defined parameter, date, and level selection, followed by secure authentication, API querying, and visualization using EarthKit.
     <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">EUMETSAT</span><span class="tag">MSG SEVIRI</span><span class="tag">MTG FCI</span><span class="tag">MTG Lightning Imager</span>
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">earthkit</span><span class="tag">Digital Twin</span>
     </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_Reading_geostationary_products.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="DEFAIR EUMETSAT zarr AI-Ready-data" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>DEDL_DEFAIR_quick_start</strong><br>
-    This notebook shows how to start working with DEFAIR (Destination Earth Framework for preparing AI-Ready Data)
-    <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">EUMETSAT</span><span class="tag">zarr</span><span class="tag">AI-Ready-data</span>
-    </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_quick_start.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/DestinE_Digital_Twins/ExtremeDT-ParameterPlotter.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>
