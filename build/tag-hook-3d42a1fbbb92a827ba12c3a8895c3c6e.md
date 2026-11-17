@@ -1,4 +1,4 @@
-# Notebooks `SEVIRI`
+# Notebooks `Hook`
 
 ### Filter Notebooks by Tags
 
@@ -74,30 +74,43 @@
 {button}`zarr </galleries_by_tag/tag-zarr.md>`
 
 <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px;">
-<div class="notebook-card" data-tags="DEFAIR MSG SEVIRI Metop EDLST MTG GII IASI data cube" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="Hook Authentication Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Building a Heterogeneous AI-Ready Data Cube with DEFAIR</strong><br>
-    Four EUMETSAT sources, four geometries, one aligned cube : MSG SEVIRI × Metop EDLST × MTG GII × Metop IASI.
+    <strong>Access to Hook services</strong><br>
+    This Notebook demonstrates the retrieval of a token appropriate for interaction with the OnDemand Processing API (Hook API) and listing of available Hooks (Processors) using the retrieved token.
     <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">MSG</span><span class="tag">SEVIRI</span><span class="tag">Metop</span><span class="tag">EDLST</span><span class="tag">MTG</span><span class="tag">GII</span><span class="tag">IASI</span><span class="tag">data cube</span>
+      <span class="tag">Hook</span><span class="tag">Authentication</span><span class="tag">Token</span>
     </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_Building_heterogeneous_data_cube_using_defair.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HOOK/DEDL-Hook_access.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA SEVIRI" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="Hook Authentication Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>High rate SEVIRI Level 1.5 Image Data MSG - Data Access</strong><br>
-    This notebook demonstrates how to access SEVIRI data using HDA and how to read, process and visualize it.
+    <strong>Hook - Perform data harvesting</strong><br>
+    This Notebook demonstrates how to perform data harvesting with Hook.
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">SEVIRI</span>
+      <span class="tag">Hook</span><span class="tag">Authentication</span><span class="tag">Token</span>
     </div>
-    <a href="../production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.MSG-1.5.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HOOK/DEDL-Hook_data_harvest.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="Hook Authentication Workflow Storage" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Hook Tutorial - Data Harvest</strong><br>
+    This notebook demonstrates how to use the Hook service.
+    <div style="margin: 6px 0;">
+      <span class="tag">Hook</span><span class="tag">Authentication</span><span class="tag">Workflow</span><span class="tag">Storage</span>
+    </div>
+    <a href="../production/HOOK/Tutorial.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>
