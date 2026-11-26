@@ -1,4 +1,4 @@
-# Notebooks `LI AF`
+# Notebooks `Hook`
 
 ### Filter Notebooks by Tags
 
@@ -74,30 +74,43 @@
 {button}`zarr </galleries_by_tag/tag-zarr.md>`
 
 <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px;">
-<div class="notebook-card" data-tags="DEFAIR HDA MTG FCI L1C GII LI AF" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="Hook Authentication Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>LightningCast: Satellite Based Lightning Nowcasting with DEFAIR</strong><br>
-    A Destination Earth / DEFAIR use case : A Deep-Learning Model adaptation for Satellite-Based Lightning Nowcasting
+    <strong>Hook - Perform data harvesting</strong><br>
+    This Notebook demonstrates how to perform data harvesting with Hook.
     <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">FCI L1C</span><span class="tag">GII</span><span class="tag">LI AF</span>
+      <span class="tag">Hook</span><span class="tag">Authentication</span><span class="tag">Token</span>
     </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_Lightning_nowcasting_prediction_with_DL.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HOOK/DEDL-Hook_data_harvest.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="DEFAIR HDA MTG FCI L1C GII LI AF" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="Hook Authentication Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>LightningCast: Building the AI Ready Data Cube with DEFAIR</strong><br>
-    A Destination Earth / DEFAIR use case : From raw MTG products to the AI ready campaign cube
+    <strong>Access to Hook services</strong><br>
+    This Notebook demonstrates the retrieval of a token appropriate for interaction with the OnDemand Processing API (Hook API) and listing of available Hooks (Processors) using the retrieved token.
     <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">FCI L1C</span><span class="tag">GII</span><span class="tag">LI AF</span>
+      <span class="tag">Hook</span><span class="tag">Authentication</span><span class="tag">Token</span>
     </div>
-    <a href="../production/DEFAIR/LightningCast_create_data_cube_using_defair.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HOOK/DEDL-Hook_access.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="Hook Authentication Workflow Storage" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Hook Tutorial - Data Harvest</strong><br>
+    This notebook demonstrates how to use the Hook service.
+    <div style="margin: 6px 0;">
+      <span class="tag">Hook</span><span class="tag">Authentication</span><span class="tag">Workflow</span><span class="tag">Storage</span>
+    </div>
+    <a href="../production/HOOK/Tutorial.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>
